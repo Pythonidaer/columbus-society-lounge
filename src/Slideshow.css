@@ -1,0 +1,28 @@
+/* probably better not to have fixed with */
+/* better to have cards take 33% then switch to vertical stack on mobile */
+/* images need to be same size */
+
+.carousel-status {
+  display: none;
+}
+.carousel .thumbs-wrapper.axis-vertical {
+  display: none;
+}
+
+.slide div,
+.slide.previous div,
+.slide.selected div {
+  /* width: 260px; */
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+  background: #ccc;
+  text-align: center;
+  line-height: 150px;
+}
+
+.slide div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
