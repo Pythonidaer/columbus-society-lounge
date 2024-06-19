@@ -24,7 +24,7 @@ const Navbar = () => {
           <div className='logo'>
             <img
               className='logo-image'
-              src='../../public/assets/KofC.png'
+              src='/assets/KofC.png'
               alt='Knights of Columbus Logo'
             />
           </div>

@@ -13,16 +13,16 @@ const Slideshow = () => {
       interval={5000}
     >
       <div>
-        <img src='../../public/assets/image1.jpg' alt='Slide 1' />
+        <img src='/assets/image1.jpg' alt='Slide 1' />
       </div>
       <div>
-        <img src='../../public/assets/image3.jpg' alt='Slide 3' />
+        <img src='/assets/image3.jpg' alt='Slide 3' />
       </div>
       <div>
-        <img src='../../public/assets/image4.jpg' alt='Slide 3' />
+        <img src='/assets/image4.jpg' alt='Slide 3' />
       </div>
       <div>
-        <img src='../../public/assets/image5.jpg' alt='Slide 3' />
+        <img src='/assets/image5.jpg' alt='Slide 3' />
       </div>
     </Carousel>
   )
